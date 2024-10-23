@@ -501,10 +501,6 @@ footer {
     }
 }
 
-.footer-logo p {
-    
-}
-
 @media (max-width: 576px) {
     .container {
         width: 90%;
@@ -659,4 +655,9 @@ footer {
     .team-member img{
         width: 90%;
     }
+
+    .footer-logo p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 }
