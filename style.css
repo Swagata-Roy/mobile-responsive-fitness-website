@@ -245,10 +245,10 @@ a {
 
 /* BMI Calculator Section */
 .bmi-calculator {
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   padding: 100px 0;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ padding: 100px 0;
 }
 
 .bmi-top-text{
@@ -412,7 +412,7 @@ a {
 
 .team-member p {
     font-size: 0.9rem;
-    color: #ccc;
+    color: #cccccc;
 }
 
 /* Footer */
@@ -426,13 +426,13 @@ footer {
     justify-content: space-between;
 }
 
-.footer-logo h2 {
-    font-size: 2rem;
+.footer-logo h1 {
+    font-size: 2.5rem;
     color: #ff5533;
 }
 
 .footer-logo p {
-    color: #ccc;
+    color: #cccccc;
 }
 
 .footer-links h3 {
@@ -499,6 +499,10 @@ footer {
     .hero-buttons .btn {
         font-size: 1.1rem;
     }
+}
+
+.footer-logo p {
+    
 }
 
 @media (max-width: 576px) {
@@ -644,6 +648,12 @@ footer {
 
     .team-container > div{
         flex-direction: column;
+    }
+
+    .team-top-text p{
+        margin: 4%;
+        margin-bottom: 0;
+        margin-top: 0;
     }
 
     .team-member img{
